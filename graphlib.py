@@ -70,7 +70,7 @@ def addperson():
             return name
 
 
-# Define a class Person to represent a person with their labels and data
+# Define a Person object to represent a person with their labels and data
 class Person:
     def __init__(self, name, labels, datas):
         self.name = name
